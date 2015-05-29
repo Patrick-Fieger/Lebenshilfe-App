@@ -1,0 +1,1 @@
+c:\users\lennart\documents\visual studio 2013\Projects\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\Lebenshilfe_02.Windows.csproj;neutral
