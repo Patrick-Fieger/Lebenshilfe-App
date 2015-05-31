@@ -1,0 +1,103 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body,html {
+	padding: 0;
+	margin: 0;
+	background: white;
+	color: #000;
+	font: 1em/1.5 'Segoe UI', sans-serif;
+	width: 100%;
+	height: 100%;
+}
+body.admin {
+	background: rgba(42,107,183,0.35);
+}
+h1 {
+	font-weight: lighter;
+	font-size: 300%;
+	padding: 0;
+	margin: 10px 0 0 0;
+}
+h2 {
+	margin: 0;
+	padding: 0;
+	font-weight: lighter;
+	font-size: 170%;
+}
+#sidebar {
+	background: rgb(42,107,183);
+	width: 12%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	color: #fff;
+	padding: 20px;
+}
+#content {
+	padding-left: 17%;
+}
+#inner {
+	background: rgba(42,107,183,0.35);
+	width: 100%;
+	clear: both;
+	position: relative;
+	z-index: 99;
+}
+.gridElement {
+	background: rgba(42,107,183,0.25);
+	width: 40%;
+	height: 260px;
+	margin: 0 5% 5% 0;
+	padding: 20px;
+	float: left;
+	font-size: 135%;
+	font-weight: lighter;
+	position: relative;
+}
+body.admin .gridElement {
+	background: rgba(255,255,255,0.5);
+}
+.gridElement:last-child{
+	margin-right: 0;
+}
+.gridElement p {
+	position: absolute;
+	bottom: 0;
+	left: 20px;
+}
+.button, .smiley {
+	font-size: 200%;
+}
+.button {
+	padding: 10px 21px;
+	border: 2px solid #fff;
+	border-radius: 100%;
+}
+#content .button {
+	color: rgb(42,107,183);
+	border-color: rgb(42,107,183);
+}
+.ion-android-happy {
+	color: rgb(0, 210, 80);
+}
+.ion-android-sad {
+	color: rgb(255, 50, 50);
+}
+
+input[type="text"] {
+	display: block;
+	position: relative;
+	top: 20%;
+	left: 0;
+	border: none;
+	background: rgba(255,255,255,0.5);
+	padding: 10px;
+	font-family:inherit;
+	font-size: 120%;
+	font-weight: lighter;
+	color: rgba(0,0,0,0.35);
+}
