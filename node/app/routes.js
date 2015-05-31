@@ -4,8 +4,13 @@ var employee = require('./controller/employee')
 	, operations = require('./controller/operations')
 
 module.exports = function(app){
-	app.post('/employee', employee.test)
-	app.post('/entries', entries.test)
-	app.post('/leader', leader.test)
-	app.post('/operations', operations.test)
+	app.get('/employees', employee.employees)
+	app.get('/reports/:id', employee.reportsById)
+	app.get('/reports/:id/:date', employee.reportsByIdAndDate)
+	app.post('/report', employee.report)
+
+	app.post('/login', leader.login)
+	app.post('/create/employee', leader.create)
+	app.post('/update/employee', leader.update)
+	app.post('/operations', leader.operations)
 }

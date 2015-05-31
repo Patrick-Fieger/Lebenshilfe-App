@@ -5,7 +5,9 @@ var OperationsSchema = mongoose.Schema({
   name: { type: String, required: true},
   active: { type: Boolean},
   picture : { type: String},
-  description : { type: String}
+  description : { type: String},
+  // Welche gruppe ist authorisiert welche Aktivität anzugeben
+  allowedgroups : {type : Array}
 });
 
 var Operations = mongoose.model('Operationss', OperationsSchema);
