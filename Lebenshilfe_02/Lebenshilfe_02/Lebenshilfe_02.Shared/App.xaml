@@ -1,0 +1,34 @@
+﻿<Application
+    x:Class="Lebenshilfe_02.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Lebenshilfe_02">
+    <Application.Resources>
+        
+        <!--Background-Colors-->
+            <!--Background Content-Area-->
+            <SolidColorBrush x:Key="adminBackground" Color="#FFB5CBE6"/>
+            <SolidColorBrush x:Key="userBackground" Color="#FFFFFFFF"/>
+            <!--Background sideBar-->
+            <SolidColorBrush x:Key="sideBar" Color="#FF2A6BB7"/>
+            <!--Background Grid-Elements-->
+            <SolidColorBrush x:Key="bgTilesAdmin" Color="#FFDAE5F3"/>
+            <SolidColorBrush x:Key="bgTilesUser" Color="#FFCADAED"/>
+            <!--Background Input-Fields-->
+            <SolidColorBrush x:Key="bgInput" Color="#FFDAE5F3"/>
+        
+        <!--Font Formattings-->
+        <SolidColorBrush x:Key="h1Color" Color="Black"/>
+        <x:Double x:Key="h1Font">56</x:Double>
+        <SolidColorBrush x:Key="h2Color" Color="Black"/>
+        <x:Double x:Key="h2Font">35</x:Double>
+        <SolidColorBrush x:Key="pColor" Color="Black"/>
+        <x:Double x:Key="pFont">20</x:Double>
+        <SolidColorBrush x:Key="colorInput" Color="#59000000"/>
+        <x:Double x:Key="fontInput">17</x:Double>
+        
+        <!--Buttons-->
+        <SolidColorBrush x:Key="contentButtonColor" Color="#FF2A6BB7"/>
+
+    </Application.Resources>
+</Application>
