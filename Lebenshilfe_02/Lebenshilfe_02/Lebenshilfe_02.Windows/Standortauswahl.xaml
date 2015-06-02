@@ -31,7 +31,7 @@
     <!--
     Dieser Raster fungiert als Stammbereich für die Seite.
   -->
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="{StaticResource userBackground}">
         <Grid.ChildrenTransitions>
             <TransitionCollection>
                 <EntranceThemeTransition/>
@@ -51,11 +51,12 @@
                         Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
                         AutomationProperties.Name="Back"
                         AutomationProperties.AutomationId="BackButton"
-                        AutomationProperties.ItemType="Navigation Button"/>
+                        AutomationProperties.ItemType="Navigation Button" BorderBrush="{StaticResource button}"/>
                     <TextBlock x:Name="pageTitle" x:Uid="Header" Text="Lebenshilfe München" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
-                        VerticalAlignment="Top" IsHitTestVisible="false" TextWrapping="NoWrap" Margin="120,0,-120,0" />
+                        VerticalAlignment="Top" IsHitTestVisible="false" TextWrapping="NoWrap" Margin="120,0,-120,0" Foreground="#59000000" SelectionHighlightColor="White" FontSize="{StaticResource h1Font}" />
                 </Grid>
             </Hub.Header>
+<<<<<<< HEAD:Lebenshilfe_02/Lebenshilfe_02/Lebenshilfe_02.Windows/Standortauswahl.xaml
             <HubSection Width="180" Margin="0,0,20,0">
                 <HubSection.Background>
                     <ImageBrush ImageSource="Assets/MediumGray.png" Stretch="UniformToFill" />
@@ -63,6 +64,11 @@
             </HubSection>
             <HubSection IsHeaderInteractive="True" DataContext="{Binding Section3Items}" d:DataContext="{Binding Groups[0], Source={d:DesignData Source=../Lebenshilfe_02.Shared/DataModel/SampleData.json, Type=data:StandortAuswahlDataSource}}"
                         x:Uid="Section3Header" Header="Wählen Sie Ihren Standort" Padding="40,40,40,32">
+=======
+            <HubSection Width="180" Margin="0,0,20,0" Background="{StaticResource sideBar}"/>
+            <HubSection IsHeaderInteractive="True" DataContext="{Binding Section3Items}" d:DataContext="{Binding Groups[3], Source={d:DesignData Source=../Lebenshilfe_02.Shared/DataModel/SampleData.json, Type=data:SampleDataSource}}"
+                        x:Uid="Section3Header" Header="{Binding Title}" Padding="40,40,40,32">
+>>>>>>> 32af34f47242d2deeb395e67be2478db15eff99d:Lebenshilfe_02/Lebenshilfe_02/Lebenshilfe_02.Windows/HubPage.xaml
                 <DataTemplate>
                     <GridView
                         x:Name="itemGridView"
