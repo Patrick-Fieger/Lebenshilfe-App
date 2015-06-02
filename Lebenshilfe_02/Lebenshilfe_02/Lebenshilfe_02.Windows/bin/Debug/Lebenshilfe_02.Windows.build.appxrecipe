@@ -7,65 +7,71 @@
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>c21fe4f3-4a6f-4523-bf80-48856ff6b9b9</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\Lennart\Documents\Visual Studio 2013\Projects\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\obj\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\obj\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Lennart\Documents\Visual Studio 2013\Projects\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Lennart\Documents\Visual Studio 2013\Projects\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\bin\Debug\Lebenshilfe_02.Windows.exe">
+    <AppxPackagedFile Include="C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\bin\Debug\Lebenshilfe_02.Windows.exe">
       <PackagePath>Lebenshilfe_02.Windows.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lennart\Documents\Visual Studio 2013\Projects\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\Assets\Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lennart\Documents\Visual Studio 2013\Projects\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\Assets\SmallLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lennart\Documents\Visual Studio 2013\Projects\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lennart\Documents\Visual Studio 2013\Projects\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lennart\Documents\Visual Studio 2013\Projects\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\Assets\WideLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\Assets\WideLogo.scale-100.png">
       <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lennart\Documents\Visual Studio 2013\Projects\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Shared\Assets\LightGray.png">
+    <AppxPackagedFile Include="C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Shared\Assets\LightGray.png">
       <PackagePath>Assets\LightGray.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lennart\Documents\Visual Studio 2013\Projects\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Shared\Assets\MediumGray.png">
+    <AppxPackagedFile Include="C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Shared\Assets\MediumGray.png">
       <PackagePath>Assets\MediumGray.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lennart\Documents\Visual Studio 2013\Projects\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Shared\Assets\DarkGray.png">
+    <AppxPackagedFile Include="C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Shared\Assets\DarkGray.png">
       <PackagePath>Assets\DarkGray.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lennart\Documents\Visual Studio 2013\Projects\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Shared\DataModel\SampleData.json">
+    <AppxPackagedFile Include="C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Shared\DataModel\GruppenAuswahlData.json">
+      <PackagePath>DataModel\GruppenAuswahlData.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Shared\DataModel\StandortAuswahlData.json">
+      <PackagePath>DataModel\StandortAuswahlData.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Shared\DataModel\SampleData.json">
       <PackagePath>DataModel\SampleData.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lennart\Documents\Visual Studio 2013\Projects\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lennart\Documents\Visual Studio 2013\Projects\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\bin\Debug\HubPage.xbf">
-      <PackagePath>HubPage.xbf</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\bin\Debug\Gruppenauswahl.xbf">
+      <PackagePath>Gruppenauswahl.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lennart\Documents\Visual Studio 2013\Projects\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\bin\Debug\SectionPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\bin\Debug\Standortauswahl.xbf">
+      <PackagePath>Standortauswahl.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\bin\Debug\SectionPage.xbf">
       <PackagePath>SectionPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lennart\Documents\Visual Studio 2013\Projects\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\bin\Debug\ItemPage.xbf">
-      <PackagePath>ItemPage.xbf</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lennart\Documents\Visual Studio 2013\Projects\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\bin\Debug\Lebenshilfe_02.Windows.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\bin\Debug\Lebenshilfe_02.Windows.xr.xml">
       <PackagePath>Lebenshilfe_02.Windows.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lennart\Documents\Visual Studio 2013\Projects\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

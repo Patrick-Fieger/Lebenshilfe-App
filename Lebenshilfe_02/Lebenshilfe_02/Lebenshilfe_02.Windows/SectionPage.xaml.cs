@@ -65,7 +65,7 @@ namespace Lebenshilfe_02
         private async void NavigationHelper_LoadState(object sender, LoadStateEventArgs e)
         {
             // TODO: Ein geeignetes Datenmodell für die problematische Domäne erstellen, um die Beispieldaten auszutauschen
-            var group = await SampleDataSource.GetGroupAsync((string)e.NavigationParameter);
+            var group = await GruppeDataSource.GetGruppeAsync((string)e.NavigationParameter);
             this.DefaultViewModel["Group"] = group;
             this.DefaultViewModel["Items"] = group.Items;
         }
@@ -79,8 +79,8 @@ namespace Lebenshilfe_02
         {
             // Zur entsprechenden Zielseite navigieren und die neue Seite konfigurieren,
             // indem die erforderlichen Informationen als Navigationsparameter übergeben werden
-            var itemId = ((SampleDataItem)e.ClickedItem).UniqueId;
-            this.Frame.Navigate(typeof(ItemPage), itemId);
+            //var itemId = ((SampleDataItem)e.ClickedItem).UniqueId;
+            //this.Frame.Navigate(typeof(ItemPage), itemId);
         }
 
         #region NavigationHelper-Registrierung

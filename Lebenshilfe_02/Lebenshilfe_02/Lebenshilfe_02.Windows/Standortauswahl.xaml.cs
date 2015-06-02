@@ -22,7 +22,7 @@ namespace Lebenshilfe_02
     /// <summary>
     /// Eine Seite, auf der eine gruppierte Auflistung von Elementen angezeigt wird.
     /// </summary>
-    public sealed partial class HubPage : Page
+    public sealed partial class StandortAuswahlPage : Page
     {
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
@@ -43,7 +43,7 @@ namespace Lebenshilfe_02
             get { return this.defaultViewModel; }
         }
 
-        public HubPage()
+        public StandortAuswahlPage()
         {
             this.InitializeComponent();
             this.navigationHelper = new NavigationHelper(this);
@@ -64,8 +64,10 @@ namespace Lebenshilfe_02
         private async void NavigationHelper_LoadState(object sender, LoadStateEventArgs e)
         {
             // TODO: Ein geeignetes Datenmodell für die problematische Domäne erstellen, um die Beispieldaten auszutauschen
-            var sampleDataGroup = await SampleDataSource.GetGroupAsync("Group-4");
-            this.DefaultViewModel["Section3Items"] = sampleDataGroup;
+            //var sampleDataGroup = await StandortDataSource.GetGroupAsync("Group-4");
+
+            var standortDataGroup = await StandortAuswahlDataSource.GetStandortAsync("Standorte");
+            this.DefaultViewModel["Section3Items"] = standortDataGroup;
         }
 
         /// <summary>
@@ -90,9 +92,10 @@ namespace Lebenshilfe_02
         {
             // Zur entsprechenden Zielseite navigieren und die neue Seite konfigurieren,
             // indem die erforderlichen Informationen als Navigationsparameter übergeben werden
-            var itemId = ((SampleDataItem)e.ClickedItem).UniqueId;
-            this.Frame.Navigate(typeof(ItemPage), itemId);
+            var itemId = ((StandortAuswahlDataItem)e.ClickedItem).UniqueId;
+            this.Frame.Navigate(typeof(GruppenAuswahlPage), itemId);
         }
+        
         #region NavigationHelper-Registrierung
 
         /// <summary>

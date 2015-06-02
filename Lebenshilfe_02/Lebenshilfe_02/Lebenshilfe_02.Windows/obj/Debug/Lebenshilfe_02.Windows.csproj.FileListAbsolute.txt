@@ -40,3 +40,45 @@ c:\users\lennart\documents\visual studio 2013\Projects\Lebenshilfe_02\Lebenshilf
 c:\users\lennart\documents\visual studio 2013\Projects\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\obj\Debug\qualifiers.txt.intermediate
 c:\users\lennart\documents\visual studio 2013\Projects\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 c:\users\lennart\documents\visual studio 2013\Projects\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\obj\Debug\ProjectArchitectures.txt
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\bin\Debug\App.xbf
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\bin\Debug\Gruppenauswahl.xbf
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\bin\Debug\Standortauswahl.xbf
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\bin\Debug\SectionPage.xbf
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\bin\Debug\Lebenshilfe_02.Windows.xr.xml
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\bin\Debug\Lebenshilfe_02.Windows.exe
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\bin\Debug\Lebenshilfe_02.Windows.pdb
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\bin\Debug\resources.pri
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\bin\Debug\AppxManifest.xml
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\bin\Debug\Lebenshilfe_02.Windows.build.appxrecipe
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\obj\Debug\App.g.i.cs
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\obj\Debug\App.g.cs
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\obj\Debug\Gruppenauswahl.g.i.cs
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\obj\Debug\Gruppenauswahl.g.cs
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\obj\Debug\Standortauswahl.g.i.cs
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\obj\Debug\Standortauswahl.g.cs
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\obj\Debug\SectionPage.g.i.cs
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\obj\Debug\SectionPage.g.cs
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\obj\Debug\App.xaml
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\obj\Debug\Standortauswahl.xaml
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\obj\Debug\SectionPage.xaml
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\obj\Debug\App.xbf
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\obj\Debug\Standortauswahl.xbf
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\obj\Debug\SectionPage.xbf
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\obj\Debug\Gruppenauswahl.xaml
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\obj\Debug\Gruppenauswahl.xbf
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\obj\Debug\Lebenshilfe_02.Windows.exe
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\obj\Debug\Lebenshilfe_02.Windows.pdb
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\obj\Debug\priconfig.xml
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\obj\Debug\priconfig.xml.intermediate
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\obj\Debug\layout.resfiles
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\obj\Debug\layout.resfiles.intermediate
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\obj\Debug\resources.resfiles
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\obj\Debug\resources.resfiles.intermediate
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\obj\Debug\pri.resfiles
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\obj\Debug\pri.resfiles.intermediate
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\obj\Debug\qualifiers.txt
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Lennart\Documents\GitHub\Microsoft\Lebenshilfe_02\Lebenshilfe_02\Lebenshilfe_02.Windows\obj\Debug\ProjectArchitectures.txt

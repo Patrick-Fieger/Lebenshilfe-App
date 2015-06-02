@@ -2,16 +2,17 @@
 <Roots >
   <Roots.PropertyPathNames>
     <RootPropertyPathName Name="DefaultViewModel" />
-    <RootPropertyPathName Name="Description" />
     <RootPropertyPathName Name="Title" />
-    <RootPropertyPathName Name="ImagePath" />
+    <RootPropertyPathName Name="Vorname" />
     <RootPropertyPathName Name="NavigationHelper" />
     <RootPropertyPathName Name="GoBackCommand" />
-    <RootPropertyPathName Name="Section3Items" />
+    <RootPropertyPathName Name="Gruppenauswahl" />
     <RootPropertyPathName Name="Items" />
+    <RootPropertyPathName Name="ImagePath" />
+    <RootPropertyPathName Name="Section3Items" />
     <RootPropertyPathName Name="Group" />
+    <RootPropertyPathName Name="Description" />
     <RootPropertyPathName Name="Subtitle" />
-    <RootPropertyPathName Name="Item" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application" />
@@ -35,14 +36,14 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="RowDefinitions" />
       <RootProperty Name="Children" />
+      <RootProperty Name="ColumnDefinitions" />
       <RootProperty Name="Background" />
       <RootProperty Name="ChildrenTransitions" />
-      <RootProperty Name="ColumnDefinitions" />
       <RootProperty Name="DataContext" />
-      <RootMethod Name="GetRow" />
-      <RootMethod Name="SetRow" />
       <RootMethod Name="GetColumn" />
       <RootMethod Name="SetColumn" />
+      <RootMethod Name="GetRow" />
+      <RootMethod Name="SetRow" />
       <RootMethod Name="GetRowSpan" />
       <RootMethod Name="SetRowSpan" />
     </RootType>
@@ -55,36 +56,20 @@
       <RootProperty Name="Child" />
       <RootProperty Name="Width" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
-      <RootProperty Name="Margin" />
-      <RootProperty Name="Children" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Width" />
-    </RootType>
+    <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="Text" />
       <RootProperty Name="Style" />
       <RootProperty Name="TextWrapping" />
-      <RootProperty Name="MaxHeight" />
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="IsHitTestVisible" />
-      <RootProperty Name="Margin" />
+      <RootProperty Name="MaxHeight" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.StaticResourceExtension" />
-    <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.ThemeResourceExtension" />
-    <RootType FullName="Windows.UI.Xaml.Controls.Image">
-      <RootProperty Name="Source" />
-      <RootProperty Name="Stretch" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="Margin" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Automation.AutomationProperties">
-      <RootMethod Name="GetName" />
-      <RootMethod Name="SetName" />
-      <RootMethod Name="GetAutomationId" />
-      <RootMethod Name="SetAutomationId" />
-      <RootMethod Name="GetItemType" />
-      <RootMethod Name="SetItemType" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
+      <RootProperty Name="Width" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.Animation.TransitionCollection" />
     <RootType FullName="Windows.UI.Xaml.Media.Animation.EntranceThemeTransition" />
@@ -93,14 +78,19 @@
       <RootProperty Name="Sections" />
       <RootEvent Name="SectionHeaderClick" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
-      <RootProperty Name="Width" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Style" />
       <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Command" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Automation.AutomationProperties">
+      <RootMethod Name="GetName" />
+      <RootMethod Name="SetName" />
+      <RootMethod Name="GetAutomationId" />
+      <RootMethod Name="SetAutomationId" />
+      <RootMethod Name="GetItemType" />
+      <RootMethod Name="SetItemType" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.HubSection">
       <RootProperty Name="Width" />
@@ -129,7 +119,20 @@
       <RootProperty Name="ImageSource" />
       <RootProperty Name="Stretch" />
     </RootType>
-    <RootType FullName="Lebenshilfe_02.HubPage" />
+    <RootType FullName="Lebenshilfe_02.GruppenAuswahlPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="Source" />
+      <RootProperty Name="Stretch" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="Lebenshilfe_02.StandortAuswahlPage" />
     <RootType FullName="Windows.UI.Xaml.Data.CollectionViewSource">
       <RootProperty Name="Source" />
     </RootType>
@@ -141,6 +144,5 @@
       <RootProperty Name="Value" />
     </RootType>
     <RootType FullName="Lebenshilfe_02.SectionPage" />
-    <RootType FullName="Lebenshilfe_02.ItemPage" />
   </Roots.RootTypes>
 </Roots>

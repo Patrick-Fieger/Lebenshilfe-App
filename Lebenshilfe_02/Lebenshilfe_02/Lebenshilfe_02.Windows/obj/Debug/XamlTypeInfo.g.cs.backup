@@ -125,7 +125,7 @@ namespace Lebenshilfe_02.Lebenshilfe_02_Windows_XamlTypeInfo
         private void InitTypeTables()
         {
             _typeNameTable = new string[10];
-            _typeNameTable[0] = "Lebenshilfe_02.HubPage";
+            _typeNameTable[0] = "Lebenshilfe_02.GruppenAuswahlPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
             _typeNameTable[3] = "Lebenshilfe_02.Common.NavigationHelper";
@@ -133,11 +133,11 @@ namespace Lebenshilfe_02.Lebenshilfe_02_Windows_XamlTypeInfo
             _typeNameTable[5] = "Lebenshilfe_02.Common.ObservableDictionary";
             _typeNameTable[6] = "Object";
             _typeNameTable[7] = "String";
-            _typeNameTable[8] = "Lebenshilfe_02.SectionPage";
-            _typeNameTable[9] = "Lebenshilfe_02.ItemPage";
+            _typeNameTable[8] = "Lebenshilfe_02.StandortAuswahlPage";
+            _typeNameTable[9] = "Lebenshilfe_02.SectionPage";
 
             _typeTable = new global::System.Type[10];
-            _typeTable[0] = typeof(global::Lebenshilfe_02.HubPage);
+            _typeTable[0] = typeof(global::Lebenshilfe_02.GruppenAuswahlPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
             _typeTable[3] = typeof(global::Lebenshilfe_02.Common.NavigationHelper);
@@ -145,8 +145,8 @@ namespace Lebenshilfe_02.Lebenshilfe_02_Windows_XamlTypeInfo
             _typeTable[5] = typeof(global::Lebenshilfe_02.Common.ObservableDictionary);
             _typeTable[6] = typeof(global::System.Object);
             _typeTable[7] = typeof(global::System.String);
-            _typeTable[8] = typeof(global::Lebenshilfe_02.SectionPage);
-            _typeTable[9] = typeof(global::Lebenshilfe_02.ItemPage);
+            _typeTable[8] = typeof(global::Lebenshilfe_02.StandortAuswahlPage);
+            _typeTable[9] = typeof(global::Lebenshilfe_02.SectionPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -181,10 +181,10 @@ namespace Lebenshilfe_02.Lebenshilfe_02_Windows_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_HubPage() { return new global::Lebenshilfe_02.HubPage(); }
+        private object Activate_0_GruppenAuswahlPage() { return new global::Lebenshilfe_02.GruppenAuswahlPage(); }
         private object Activate_5_ObservableDictionary() { return new global::Lebenshilfe_02.Common.ObservableDictionary(); }
-        private object Activate_8_SectionPage() { return new global::Lebenshilfe_02.SectionPage(); }
-        private object Activate_9_ItemPage() { return new global::Lebenshilfe_02.ItemPage(); }
+        private object Activate_8_StandortAuswahlPage() { return new global::Lebenshilfe_02.StandortAuswahlPage(); }
+        private object Activate_9_SectionPage() { return new global::Lebenshilfe_02.SectionPage(); }
         private void MapAdd_5_ObservableDictionary(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.String, global::System.Object>)instance;
@@ -203,9 +203,9 @@ namespace Lebenshilfe_02.Lebenshilfe_02_Windows_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  Lebenshilfe_02.HubPage
+            case 0:   //  Lebenshilfe_02.GruppenAuswahlPage
                 userType = new global::Lebenshilfe_02.Lebenshilfe_02_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_HubPage;
+                userType.Activator = Activate_0_GruppenAuswahlPage;
                 userType.AddMemberName("NavigationHelper");
                 userType.AddMemberName("DefaultViewModel");
                 userType.SetIsLocalType();
@@ -247,18 +247,18 @@ namespace Lebenshilfe_02.Lebenshilfe_02_Windows_XamlTypeInfo
                 xamlType = new global::Lebenshilfe_02.Lebenshilfe_02_Windows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 8:   //  Lebenshilfe_02.SectionPage
+            case 8:   //  Lebenshilfe_02.StandortAuswahlPage
                 userType = new global::Lebenshilfe_02.Lebenshilfe_02_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_8_SectionPage;
+                userType.Activator = Activate_8_StandortAuswahlPage;
                 userType.AddMemberName("NavigationHelper");
                 userType.AddMemberName("DefaultViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 9:   //  Lebenshilfe_02.ItemPage
+            case 9:   //  Lebenshilfe_02.SectionPage
                 userType = new global::Lebenshilfe_02.Lebenshilfe_02_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_9_ItemPage;
+                userType.Activator = Activate_9_SectionPage;
                 userType.AddMemberName("NavigationHelper");
                 userType.AddMemberName("DefaultViewModel");
                 userType.SetIsLocalType();
@@ -269,34 +269,34 @@ namespace Lebenshilfe_02.Lebenshilfe_02_Windows_XamlTypeInfo
         }
 
 
-        private object get_0_HubPage_NavigationHelper(object instance)
+        private object get_0_GruppenAuswahlPage_NavigationHelper(object instance)
         {
-            var that = (global::Lebenshilfe_02.HubPage)instance;
+            var that = (global::Lebenshilfe_02.GruppenAuswahlPage)instance;
             return that.NavigationHelper;
         }
-        private object get_1_HubPage_DefaultViewModel(object instance)
+        private object get_1_GruppenAuswahlPage_DefaultViewModel(object instance)
         {
-            var that = (global::Lebenshilfe_02.HubPage)instance;
+            var that = (global::Lebenshilfe_02.GruppenAuswahlPage)instance;
             return that.DefaultViewModel;
         }
-        private object get_2_SectionPage_NavigationHelper(object instance)
+        private object get_2_StandortAuswahlPage_NavigationHelper(object instance)
+        {
+            var that = (global::Lebenshilfe_02.StandortAuswahlPage)instance;
+            return that.NavigationHelper;
+        }
+        private object get_3_StandortAuswahlPage_DefaultViewModel(object instance)
+        {
+            var that = (global::Lebenshilfe_02.StandortAuswahlPage)instance;
+            return that.DefaultViewModel;
+        }
+        private object get_4_SectionPage_NavigationHelper(object instance)
         {
             var that = (global::Lebenshilfe_02.SectionPage)instance;
             return that.NavigationHelper;
         }
-        private object get_3_SectionPage_DefaultViewModel(object instance)
+        private object get_5_SectionPage_DefaultViewModel(object instance)
         {
             var that = (global::Lebenshilfe_02.SectionPage)instance;
-            return that.DefaultViewModel;
-        }
-        private object get_4_ItemPage_NavigationHelper(object instance)
-        {
-            var that = (global::Lebenshilfe_02.ItemPage)instance;
-            return that.NavigationHelper;
-        }
-        private object get_5_ItemPage_DefaultViewModel(object instance)
-        {
-            var that = (global::Lebenshilfe_02.ItemPage)instance;
             return that.DefaultViewModel;
         }
 
@@ -307,40 +307,40 @@ namespace Lebenshilfe_02.Lebenshilfe_02_Windows_XamlTypeInfo
 
             switch (longMemberName)
             {
-            case "Lebenshilfe_02.HubPage.NavigationHelper":
-                userType = (global::Lebenshilfe_02.Lebenshilfe_02_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Lebenshilfe_02.HubPage");
+            case "Lebenshilfe_02.GruppenAuswahlPage.NavigationHelper":
+                userType = (global::Lebenshilfe_02.Lebenshilfe_02_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Lebenshilfe_02.GruppenAuswahlPage");
                 xamlMember = new global::Lebenshilfe_02.Lebenshilfe_02_Windows_XamlTypeInfo.XamlMember(this, "NavigationHelper", "Lebenshilfe_02.Common.NavigationHelper");
-                xamlMember.Getter = get_0_HubPage_NavigationHelper;
+                xamlMember.Getter = get_0_GruppenAuswahlPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "Lebenshilfe_02.HubPage.DefaultViewModel":
-                userType = (global::Lebenshilfe_02.Lebenshilfe_02_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Lebenshilfe_02.HubPage");
+            case "Lebenshilfe_02.GruppenAuswahlPage.DefaultViewModel":
+                userType = (global::Lebenshilfe_02.Lebenshilfe_02_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Lebenshilfe_02.GruppenAuswahlPage");
                 xamlMember = new global::Lebenshilfe_02.Lebenshilfe_02_Windows_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "Lebenshilfe_02.Common.ObservableDictionary");
-                xamlMember.Getter = get_1_HubPage_DefaultViewModel;
+                xamlMember.Getter = get_1_GruppenAuswahlPage_DefaultViewModel;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Lebenshilfe_02.StandortAuswahlPage.NavigationHelper":
+                userType = (global::Lebenshilfe_02.Lebenshilfe_02_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Lebenshilfe_02.StandortAuswahlPage");
+                xamlMember = new global::Lebenshilfe_02.Lebenshilfe_02_Windows_XamlTypeInfo.XamlMember(this, "NavigationHelper", "Lebenshilfe_02.Common.NavigationHelper");
+                xamlMember.Getter = get_2_StandortAuswahlPage_NavigationHelper;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "Lebenshilfe_02.StandortAuswahlPage.DefaultViewModel":
+                userType = (global::Lebenshilfe_02.Lebenshilfe_02_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Lebenshilfe_02.StandortAuswahlPage");
+                xamlMember = new global::Lebenshilfe_02.Lebenshilfe_02_Windows_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "Lebenshilfe_02.Common.ObservableDictionary");
+                xamlMember.Getter = get_3_StandortAuswahlPage_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Lebenshilfe_02.SectionPage.NavigationHelper":
                 userType = (global::Lebenshilfe_02.Lebenshilfe_02_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Lebenshilfe_02.SectionPage");
                 xamlMember = new global::Lebenshilfe_02.Lebenshilfe_02_Windows_XamlTypeInfo.XamlMember(this, "NavigationHelper", "Lebenshilfe_02.Common.NavigationHelper");
-                xamlMember.Getter = get_2_SectionPage_NavigationHelper;
+                xamlMember.Getter = get_4_SectionPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Lebenshilfe_02.SectionPage.DefaultViewModel":
                 userType = (global::Lebenshilfe_02.Lebenshilfe_02_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Lebenshilfe_02.SectionPage");
                 xamlMember = new global::Lebenshilfe_02.Lebenshilfe_02_Windows_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "Lebenshilfe_02.Common.ObservableDictionary");
-                xamlMember.Getter = get_3_SectionPage_DefaultViewModel;
-                xamlMember.SetIsReadOnly();
-                break;
-            case "Lebenshilfe_02.ItemPage.NavigationHelper":
-                userType = (global::Lebenshilfe_02.Lebenshilfe_02_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Lebenshilfe_02.ItemPage");
-                xamlMember = new global::Lebenshilfe_02.Lebenshilfe_02_Windows_XamlTypeInfo.XamlMember(this, "NavigationHelper", "Lebenshilfe_02.Common.NavigationHelper");
-                xamlMember.Getter = get_4_ItemPage_NavigationHelper;
-                xamlMember.SetIsReadOnly();
-                break;
-            case "Lebenshilfe_02.ItemPage.DefaultViewModel":
-                userType = (global::Lebenshilfe_02.Lebenshilfe_02_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Lebenshilfe_02.ItemPage");
-                xamlMember = new global::Lebenshilfe_02.Lebenshilfe_02_Windows_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "Lebenshilfe_02.Common.ObservableDictionary");
-                xamlMember.Getter = get_5_ItemPage_DefaultViewModel;
+                xamlMember.Getter = get_5_SectionPage_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             }

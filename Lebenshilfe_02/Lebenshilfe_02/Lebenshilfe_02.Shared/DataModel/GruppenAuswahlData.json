@@ -1,0 +1,41 @@
+﻿{"Groups":[
+  {
+    "UniqueId": "Standort-MUC",
+    "Items":
+    [
+      {
+        "UniqueId": "Gruppe-MUC-A",
+        "Title": "Gruppe A"
+      },
+      {
+        "UniqueId": "Gruppe-MUC-B",
+        "Title": "Gruppe B"
+      },
+      {
+        "UniqueId": "Gruppe-MUC-C",
+        "Title": "Gruppe C"
+      },
+      {
+        "UniqueId": "Gruppe-MUC-D",
+        "Title": "Gruppe D"
+      },
+      {
+        "UniqueId": "Gruppe-MUC-E",
+        "Title": "Gruppe E"
+      },
+      {
+        "UniqueId": "Gruppe-MUC-F",
+        "Title": "Gruppe F"
+      },
+      {
+        "UniqueId": "Gruppe-MUC-G",
+        "Title": "Gruppen G"
+      },
+      {
+        "UniqueId": "Gruppe-MUC-H",
+        "Title": "Gruppe H"
+      }
+    ]
+  }
+]
+}
