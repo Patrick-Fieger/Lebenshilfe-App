@@ -1,5 +1,6 @@
 var Employees = require('../models/employee')
 	Entries = require('../models/entries'),
+	Places = require('../models/places')
 	uuid = require('uuid')
 
 function employees (req, res, next){
@@ -29,6 +30,18 @@ function reportsByIdAndDate(req, res, next){
 	});
 }
 
+function groupmembers(req, res, next){
+	var id = req.query.id;
+	var back = {
+		"UniqueId" : id
+	}
+	Employees.find({GroupId : id}, function(err,member){
+		back.Title = member[0].GroupTitle
+		back.Items = member
+		res.send(back).status(200).end();
+	});
+}
+
 function report(req, res, next){
 	var data = req.body;
 	data.id = uuid.v4();
@@ -48,5 +61,6 @@ module.exports = {
 	employees : employees,
 	reportsById : reportsById,
 	reportsByIdAndDate : reportsByIdAndDate,
-	report : report
+	report : report,
+	groupmembers : groupmembers
 }

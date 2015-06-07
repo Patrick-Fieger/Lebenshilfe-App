@@ -2,6 +2,7 @@ var employee = require('./controller/employee')
 	, entries = require('./controller/entries')
 	, leader = require('./controller/leader')
 	, operations = require('./controller/operations')
+	, places = require('./controller/places')
 
 module.exports = function(app){
 	app.get('/employees', employee.employees)
@@ -13,4 +14,10 @@ module.exports = function(app){
 	app.post('/create/employee', leader.create)
 	app.post('/update/employee', leader.update)
 	app.post('/operations', leader.operations)
+
+
+	app.get('/places', places.places)
+	app.get('/groups', places.groups)
+	app.get('/groupmembers', employee.groupmembers)
+	
 }
