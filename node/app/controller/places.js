@@ -31,15 +31,17 @@ function places(req, res, next){
 
 function groups(req, res, next){
 	var id = req.query.id
-	var back = {}
+	var back = {
+		"Groups":[{}]
+	}
 
 	Places.findOne({UniqueId : id},function(err,place){
-		if(err){
-			res.status(500).end();
+		if(err || place == null){
+			res.status(404).end();
 		}else{
-			back.UniqueId = place.UniqueId;
-  			back.Title = place.Title;
-  			back.Items = place.Groups
+			back.Groups[0].UniqueId = place.UniqueId;
+  			back.Groups[0].Title = place.Title;
+  			back.Groups[0].Items = place.Groups
 			res.send(back).status(200).end();	
 		}
 	});

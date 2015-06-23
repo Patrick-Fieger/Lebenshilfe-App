@@ -8,8 +8,8 @@ var EmployeeSchema = mongoose.Schema({
   CanRead : { type: Boolean},
   GroupTitle : { type: String},
   GroupId : { type: String},
+  Place : {type : String},
   ImgPath : { type: String},
-  // Habe ich in den Screenshots endeckt
   Birthday : {type : Date}
 });
 
@@ -18,11 +18,12 @@ module.exports = Employee;
 
 // var emplo_data = {
 //   UniqueId: uuid.v4(),
-//   Vorname: "Patrick",
-//   Nachname : "Fieger",
+//   Vorname: "Len",
+//   Nachname : "Test",
 //   CanRead : true,
-//   GroupTitle : "Gruppe A",
-//   GroupId : "Gruppe-MUC-A",
+//   GroupTitle : "Beschichtung",
+//   GroupId : "Beschichtung",
+//   Place : "Standort-Lerchenau",
 //   ImgPath : "path/to/image.jpg",  
 //   Birthday : new Date()
 // }

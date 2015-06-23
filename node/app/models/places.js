@@ -12,28 +12,30 @@ module.exports = Places;
 
 
 // var places_data = {
-//   "UniqueId": "Standort-BER",
-//   "Title": "Berlin",
+//   "UniqueId": "Standort-Lerchenau",
+//   "Title": "Standort Lerchenau",
 //   "ImgPath": "path/to/image.jpg",
 //   "Groups" :  [
 //   		{
-//         	"UniqueId": "Gruppe-BER-A",
-//         	"Title": "Gruppe A"
-//       	},
-//       	{
-//         	"UniqueId": "Gruppe-BER-B",
-//         	"Title": "Gruppe B"
-//       	},
-//       	{
-//         	"UniqueId": "Gruppe-BER-C",
-//         	"Title": "Gruppe C"
-//       	},
-//       	{
-//         	"UniqueId": "Gruppe-BER-D",
-//         	"Title": "Gruppe D"
-//       	}
+//   			UniqueId : "Berufsbildungsbereich",
+//   			Title : "Berufsbildungsbereich"
+//   		},
+// 		{
+// 			UniqueId : "Beschichtung",
+// 			Title : "Beschichtung"
+// 		},
+// 		{
+// 			UniqueId : "Montage",
+// 			Title : "Montage"
+// 		},
+// 		{
+// 			UniqueId : "Kantine",
+// 			Title : "Kantine"
+// 		}
 //   	]
 // }
+
+
 
 // Places.create(places_data,function(err,done){
 // 	if(err){

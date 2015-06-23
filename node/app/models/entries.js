@@ -5,27 +5,28 @@ var EntriesSchema = mongoose.Schema({
   id: { type: String, required: true, unique: true },
   employeesId: { type: String, required: true},
   content: { type: String},
-  timestamp : { type: Date},
-  mood : {type : String},
-  operationids : { type: String}
+  timestamp : { type: String},
+  icons : {type : Array},
+  mood : {type : String}
 });
 
 var Entries = mongoose.model('Entriess', EntriesSchema);
 module.exports = Entries;
 
+
 // var entry_data = {
 //   id: uuid.v4(),
-//   employeesId: "a9f7a0bb-011f-45ac-81ac-045e6f965194",
-//   content: "Das ist ein Text 222222",
-//   timestamp : new Date(),
+//   employeesId: "0a91f96c-b217-4629-ad4a-c09e6173ca63",
+//   content: "Depp123",
+//   timestamp : Date.now(),
 //   mood : "good",
-//   operationids : 1
+//   icon : ""
 // }
 
 // Entries.create(entry_data,function(err,done){
 // 	if(err){
 // 		console.log(err)
 // 	}else{
-// 		console.log('yaaaayyyy')
+// 		console.log('j1')
 // 	}
 // })
