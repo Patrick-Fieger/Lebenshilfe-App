@@ -1,7 +1,9 @@
 var Employees = require('../models/employee')
 	Entries = require('../models/entries'),
-	Places = require('../models/places')
-	uuid = require('uuid')
+	Places = require('../models/places'),
+	Icons = require('../models/icons')
+	uuid = require('uuid'),
+	moment = require('moment');
 
 function employees (req, res, next){
 	var id = req.query.id
@@ -21,6 +23,12 @@ function employees (req, res, next){
 	});
 }
 
+function timeConverter(UNIX_timestamp){
+  var date = new Date(parseInt(UNIX_timestamp))
+  var formatted = moment(date).format('DD.MM.YYYY')
+  return formatted;
+}
+
 function reportsById(req, res, next){
 	var back = {
 		"Groups":[{}]
@@ -32,7 +40,36 @@ function reportsById(req, res, next){
 			back.Groups[0].Title = "";
 			back.Groups[0].Items = reports;
 
-			res.send(back).status(200).end();
+			Icons.find({},function(err,icon__){
+
+				for (var i = 0; i < back.Groups[0].Items.length; i++) {
+					back.Groups[0].Items[i].timestamp = timeConverter(back.Groups[0].Items[i].timestamp)
+					var test = back.Groups[0].Items[i].icon
+						if(test !== ""){
+							var arr_ = test.replace(/\s/g, '').split(',');
+							var string = "";
+						
+							for (var j = 0; j < arr_.length; j++) {
+								if(arr_[j].charAt(0) == " "){
+									arr_[j].substring(1);
+								}else if(arr_[j] == " "){
+									arr_[j].pop();
+								}
+
+
+								for (var x = 0; x < icon__.length; x++) {
+									if(arr_[j] == icon__[x].id){
+										string = string + icon__[x].TaskName + ', ';
+										back.Groups[0].Items[i].icon = string.substring(0, string.length - 2);
+									}
+								};
+
+							};
+						}
+				};
+
+				res.send(back).status(200).end();
+			});			
 		}else{
 			res.status(500).end();
 		}
@@ -67,7 +104,6 @@ function groupmembers(req, res, next){
 }
 
 function report(req, res, next){
-	console.log(req.body)
 	var data = req.body;
 	data.id = uuid.v4();
 	data.timestamp = Date.now();

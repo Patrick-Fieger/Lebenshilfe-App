@@ -20,6 +20,7 @@ function icons(req, res, next){
 			};
 		};
 		back.Groups[0].Items = ico;
+		
 		res.send(back).status(200).end();
 	});
 }

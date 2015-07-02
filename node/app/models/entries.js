@@ -6,7 +6,7 @@ var EntriesSchema = mongoose.Schema({
   employeesId: { type: String, required: true},
   content: { type: String},
   timestamp : { type: String},
-  icons : {type : Array},
+  icon : {type : String},
   mood : {type : String}
 });
 
